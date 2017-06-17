@@ -134,10 +134,10 @@
 					</formats>
 					<check>
 						<haltOnFailure>false</haltOnFailure>
-						<lineRate>95</lineRate>
-						<branchRate>95</branchRate>
-						<totalLineRate>95</totalLineRate>
-						<totalBranchRate>95</totalBranchRate>
+						<lineRate>5</lineRate>
+						<branchRate>5</branchRate>
+						<totalLineRate>5</totalLineRate>
+						<totalBranchRate>5</totalBranchRate>
 					</check>
 				</configuration>
 				<executions>
@@ -165,13 +165,13 @@
 		      </plugin>
 	    </plugins>
 	  </reporting>
-	  <!--
+	  
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>crevise-snapshots</name>
         <url>https://crevise.jfrog.io/crevise/ext-snapshot-local</url>
     </snapshotRepository>
-    </distributionManagement> --> 
+    </distributionManagement>  
 
 </project>
