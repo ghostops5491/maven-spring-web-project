@@ -133,7 +133,7 @@
 						<format>xml</format>
 					</formats>
 					<check>
-						<haltOnFailure>true</haltOnFailure>
+						<haltOnFailure>false</haltOnFailure>
 						<lineRate>95</lineRate>
 						<branchRate>95</branchRate>
 						<totalLineRate>95</totalLineRate>
@@ -165,13 +165,13 @@
 		      </plugin>
 	    </plugins>
 	  </reporting>
-	
+	  <!--
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>crevise-snapshots</name>
         <url>https://crevise.jfrog.io/crevise/ext-snapshot-local</url>
     </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement> -->
 
 </project>
