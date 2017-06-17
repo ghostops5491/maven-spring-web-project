@@ -134,10 +134,10 @@
 					</formats>
 					<check>
 						<haltOnFailure>false</haltOnFailure>
-						<lineRate>0</lineRate>
-						<branchRate>0</branchRate>
-						<totalLineRate>0</totalLineRate>
-						<totalBranchRate>0</totalBranchRate>
+						<lineRate>95</lineRate>
+						<branchRate>95</branchRate>
+						<totalLineRate>95</totalLineRate>
+						<totalBranchRate>95</totalBranchRate>
 					</check>
 				</configuration>
 				<executions>
@@ -168,9 +168,9 @@
 	  
     <distributionManagement>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>crevise-snapshots</name>
-        <url>https://crevise.jfrog.io/crevise/ext-snapshot-local</url>
+       <id>snapshots</id>
+        <name>devops-training-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
     </distributionManagement>  
 
