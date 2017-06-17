@@ -5,6 +5,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+ color : #ffffff;
 }</style>
 <body>
 <h1>Welcome TONY STARK!!!</h>
