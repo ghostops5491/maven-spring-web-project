@@ -172,6 +172,6 @@
         <name>crevise-snapshots</name>
         <url>https://crevise.jfrog.io/crevise/ext-snapshot-local</url>
     </snapshotRepository>
-    </distributionManagement> -->
+    </distributionManagement> --> 
 
 </project>
