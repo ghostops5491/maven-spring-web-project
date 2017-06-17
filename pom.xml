@@ -83,7 +83,7 @@
 				<version>2.9</version>
 				<configuration>
 				    <!-- Always download and attach dependencies source code -->
-					<downloadSources>true</downloadSources>
+					<downloadSources>false</downloadSources>
 					<downloadJavadocs>false</downloadJavadocs>
 					<!-- mvn eclipse:eclipse -Dwtpversion=2.0 -->
 					<wtpversion>2.0</wtpversion>
